@@ -1,0 +1,3 @@
+import Brand from '@/components/Brand';import LoginClient from './LoginClient'
+export const metadata={title:'Log in',description:'Log in or create your KhataPing account.',robots:{index:false,follow:false}}
+export default function Login(){return <main className="loginPage"><section className="loginArt"><Brand inverse/><div><span className="eyebrow">KhataPing by SlotRecover</span><h1>The polite way to stay on top of recurring dues.</h1><p>Track fees, rent, memberships and retainers without turning every month into a WhatsApp search exercise.</p></div><small>Payments remain between you and your customer.</small></section><section className="loginPanel"><LoginClient/></section></main>}
